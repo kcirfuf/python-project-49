@@ -5,3 +5,4 @@
 
 brain-even https://asciinema.org/a/21DIFZLUGBHzDUonMYFCpqcG0
 brain-calc https://asciinema.org/connect/fae29663-4fef-4307-8ce7-518988dd5889
+brain-gcd  https://asciinema.org/connect/fae29663-4fef-4307-8ce7-518988dd5889
