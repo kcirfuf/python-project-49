@@ -11,6 +11,7 @@ def ask_question():
 def get_random_number():
     return random.randint(BOTTOM_LINE, UPPER_LINE)
 
+
 def is_prime(number):
     if number % 2 == 0:
         if number == 2:
