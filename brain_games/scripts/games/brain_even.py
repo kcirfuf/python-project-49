@@ -9,6 +9,7 @@ def check_even(number):
     else:
         return 'no'
 
+
 def ask_question():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 

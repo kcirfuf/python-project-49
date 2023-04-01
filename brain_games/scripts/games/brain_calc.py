@@ -4,6 +4,7 @@ OPERATIONS = ("+", "-", "*")
 BOTTOM_LINE = 0
 UPPER_LINE = 25
 
+
 def ask_question():
     print('What is the result of the expression?.')
 
@@ -18,6 +19,7 @@ def get_random_operation():
 def get_random_number():
     return random.randint(BOTTOM_LINE, UPPER_LINE)
 
+
 def calc_expression(first_number, second_number, operation):
     if operation == "+":
         return first_number + second_number
@@ -28,6 +30,7 @@ def calc_expression(first_number, second_number, operation):
     else:
         return "unsopported operation"
 
+
 def start_game():
     random_operation = get_random_operation()
     first_number = get_random_number()
@@ -35,6 +38,7 @@ def start_game():
     print(f'Question: {first_number} {random_operation} {second_number}')
     result = calc_expression(first_number, second_number, random_operation)
     return str(result)
+
 
 def main():
     run_game(start_game, ask_question)

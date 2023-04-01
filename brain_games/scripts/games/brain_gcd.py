@@ -25,5 +25,6 @@ def start_game():
     result = evklid(first_number, second_number)
     return str(result)
 
+
 def main():
     run_game(start_game, ask_question)

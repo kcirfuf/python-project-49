@@ -7,6 +7,7 @@ def get_answer():
     answer = prompt.string('Your answer: ')
     return answer
 
+
 def run_game(game_func, question_func):
     name = welcome_and_get_user_name()
     question_func()
