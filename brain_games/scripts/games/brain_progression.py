@@ -34,7 +34,7 @@ def make_question():
 
 def start_game():
     progression, result = make_question()
-    print('Question: ', *progression)
+    print('Question:', *progression)
     return str(result)
 
 
