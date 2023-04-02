@@ -34,8 +34,7 @@ def make_question():
 
 def start_game():
     progression, result = make_question()
-    progression_without_brackets = str(progression)[1:-1]
-    print(f'Question: {progression_without_brackets}')
+    print('Question: ', *progression)
     return str(result)
 
 
